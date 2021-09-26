@@ -1,12 +1,13 @@
-﻿using System;
-
-namespace TaxiPark
+﻿namespace TaxiPark
 {
-    class Program
+    using System;
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Starter s = new Starter();
+            s.StartApplication();
+            Console.ReadKey();
         }
     }
 }
